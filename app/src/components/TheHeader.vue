@@ -52,7 +52,8 @@ export default {
 .theHeader {
   margin-top: 2rem;
   justify-self: center;
-  width: 85%;
+  width: 90%;
+  max-width: 1500px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -31,8 +31,8 @@ export default {
 
 .theHome {
     margin: 2rem auto;
-    width: 85%;
-    max-width: 1200px;
+    width: 90%;
+  max-width: 1450px;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -160,6 +160,28 @@ export default {
 }
 
 /* Responsividade */
+@media (min-width: 1900px) {
+    .theHome {
+        width: 82%;
+        max-width: 1950px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1899px) {
+    .theHome {
+        width: 82%;
+        max-width: 1450px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .theHome {
+        width: 82%;
+        max-width: 1250px;
+    }
+}
+
+/* Responsividade geral */
 @media (max-width: 768px) {
     .theHome {
         width: 90%;
@@ -180,13 +202,13 @@ export default {
     }
 
     #btn_github {
-        width: 100%; /* O botão ocupa 100% da largura em telas pequenas */
-        justify-content: center; /* Centraliza o conteúdo */
+        width: 100%;
+        justify-content: center;
         padding: 1rem;
     }
 
     #btn_github a {
-        justify-content: center; /* Centraliza o conteúdo */
+        justify-content: center;
     }
 }
 </style>
