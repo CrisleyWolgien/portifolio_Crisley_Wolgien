@@ -26,6 +26,7 @@
 
     <theHome id="home" :is-dark-theme="isDarkTheme" />
     <theSobremim id="sobre" :is-dark-theme="isDarkTheme" />
+    <theSkills id="skills" :is-dark-theme="isDarkTheme" />
   </div>
 </template>
 
@@ -33,12 +34,14 @@
 import TheHeader from './components/TheHeader.vue';
 import TheHome from './components/TheHome.vue';
 import TheSobremim from './components/TheSobreMim.vue';
+import TheSkills from './components/TheSkills.vue';
 
 export default {
   components: {
     TheHeader,
     TheHome,
     TheSobremim,
+    TheSkills,
   },
   data() {
     return {
